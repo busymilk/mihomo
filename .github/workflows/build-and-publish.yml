@@ -1,4 +1,4 @@
-name: Build and Publish
+name: Build and Release
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
     - cron: '0 2 * * *' # 每天凌晨2点 (UTC)
 
 jobs:
-  build-and-publish:
+  build-and-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,8 +23,19 @@ jobs:
       - name: Build application
         run: make linux-amd64
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Generate release tag and name
+        id: generate_tag
+        run: |
+          TAG="build-$(date +%Y%m%d-%H%M%S)-$(git rev-parse --short HEAD)"
+          echo "TAG=$TAG" >> $GITHUB_ENV
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: mihomo-linux-amd64
-          path: bin/mihomo-linux-amd64
+          tag_name: ${{ steps.generate_tag.outputs.tag }}
+          name: "Build ${{ steps.generate_tag.outputs.tag }}"
+          files: bin/mihomo-linux-amd64
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
