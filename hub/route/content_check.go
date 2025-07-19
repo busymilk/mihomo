@@ -47,6 +47,12 @@ func contentCheck(w http.ResponseWriter, r *http.Request) {
 		timeout = 5 * time.Second
 	}
 
+	retriesQuery := r.URL.Query().Get("retries")
+	retries, err := strconv.Atoi(retriesQuery)
+	if err != nil || retries < 0 {
+		retries = 0
+	}
+
 	proxies := tunnel.Proxies()
 	results := make([]*ContentCheckResult, 0, len(proxies))
 	var wg sync.WaitGroup
@@ -68,7 +74,16 @@ func contentCheck(w http.ResponseWriter, r *http.Request) {
 				URL:   url,
 			}
 
-			content, err := checkProxyContent(p, url, timeout)
+			var content string
+			var err error
+
+			for i := 0; i <= retries; i++ {
+				content, err = checkProxyContent(p, url, timeout)
+				if err == nil {
+					break
+				}
+			}
+
 			if err != nil {
 				result.Error = err.Error()
 			} else {

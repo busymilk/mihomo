@@ -95,6 +95,7 @@ A new API endpoint `/content_check` has been added to check the content of a URL
 
 *   `url` (required): The URL to check. e.g., `https://checkip.amazonaws.com/`
 *   `timeout` (optional): Timeout for each request in duration format. Defaults to `5s`.
+*   `retries` (optional): The number of retries for a failed request. Defaults to `0`.
 
 **Example Usage:**
 
