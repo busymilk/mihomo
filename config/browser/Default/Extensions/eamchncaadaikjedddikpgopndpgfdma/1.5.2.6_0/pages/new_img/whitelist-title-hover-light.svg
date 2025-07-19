@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/插件设置/白名单/checked/light</title>
+    <g id="icon/插件设置/白名单/checked/light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/插件设置/白名单/normal">
+            <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="1.33333335e-11" points="0 0 23.9999985 0 23.9999985 23.9999985 0 23.9999985"></polygon>
+            <path d="M18,3 C19.1045695,3 20,3.8954305 20,5 L20,17 C20,17.8109886 19.5173023,18.509237 18.8235343,18.823118 C18.936744,18.5723876 19,18.2935809 19,18 L19,18 L19,6 C19,4.8954305 18.1045695,4 17,4 L17,4 L7,4 C6.70614871,4 6.42709886,4.06337252 6.17577194,4.17719609 C6.49010301,3.48315407 7.18862816,3 8,3 L18,3 Z" id="形状结合" fill="#FFFFFF"></path>
+            <rect id="矩形" fill="#FFFFFF" x="4" y="5" width="14" height="15" rx="2"></rect>
+            <polyline id="路径-5" stroke="#0081FF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" points="7 12.9599502 9.55564277 15.3 15.25 9.8"></polyline>
+        </g>
+    </g>
+</svg>

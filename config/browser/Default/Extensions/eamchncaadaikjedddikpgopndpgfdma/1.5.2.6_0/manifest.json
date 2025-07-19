@@ -1,0 +1,58 @@
+{
+   "author": "uniontech",
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/green-19.png",
+         "38": "icons/green-19.png"
+      },
+      "default_popup": "pages/popup.html",
+      "default_title": "上网保护"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "lib/utils/element-collapser.js", "lib/utils/css-hits-counter.js", "lib/libs/extended-css.js", "lib/content-script/adguard-content.js", "lib/content-script/common-script.js", "lib/content-script/content-script.js", "lib/content-script/wrappers.js", "lib/content-script/preload.js", "lib/nsfw/nsfw_content.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "lib/content-script/css/alert-popup.css" ],
+      "js": [ "lib/content-script/content-utils.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "lib/content-script/i18n-helper.js", "lib/content-script/devtools/devtools-rules-constructor.js", "lib/content-script/assistant/js/start-assistant.js", "lib/content-script/devtools-helper.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "lib/pages/thankyou.js" ],
+      "matches": [ "*://*.adguard.com/*/thankyou.html*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "icons/green-19.png",
+      "16": "icons/green-19.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAweUB1HNBsrFdjjkoTR+2PMn9QT9fqdMBfH6UTGaM2znikE97xWNMzKLBDYqxRfiTL/iS/kOH7giEYU9aJPdNqldz/Ua/fcOMjKkWhAMKeHQd3Vm5vIdYyUjvT1xu4g7wCYfCWo+p+OWIb1FlpXqunRSwmh11Ef/bdG5zgapHxEJRAmBOkHXUSzMX21qEyrTbuvwSlebkgmuvEX5XfWqigeRNFUCTJ0S1EKpZmveV2zwkWcYF53gZnoqX7Ul+4z/gOr7lvwoR+Wp5i7wIY5LR+hO1wql6HnsvJiLQ5DTWgdiYmQ6n58IUo59lBYPdhPFQ3slKB6NhiLdnfmICW0hf7wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55.0",
+   "name": "上网保护",
+   "optional_permissions": [ "privacy" ],
+   "options_page": "pages/options.html",
+   "permissions": [ "tabs", "\u003Call_urls>", "webRequest", "webRequestBlocking", "webNavigation", "storage", "unlimitedStorage", "notifications", "cookies", "nativeMessaging" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://webext.uniontech.com/dev-api/ad-guard-cfg/update/eamchncaadaikjedddikpgopndpgfdma?sys_type=3",
+   "version": "1.5.2.6",
+   "web_accessible_resources": [ "models/*", "tflite/*" ]
+}

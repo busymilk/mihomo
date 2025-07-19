@@ -1,0 +1,3 @@
+adguard.console=function(){function t(e,t,r){if(!(o.INFO<o[e])&&r&&0!==r.length&&r[0]){const n=""+r[0];r=Array.prototype.slice.call(r,1);n.replace(/{(\d+)}/g,(e,t)=>{if(void 0===r[t])return e;{let e=r[t];return e instanceof Error?e=(t=e).toString()+`
+Stack trace:
+`+t.stack:e&&e.message?e=e.message:"object"==typeof e&&(e=JSON.stringify(e)),e}});(e=>{var t=6e4*e.getTimezoneOffset();const r=new Date(e-t);r.toISOString().replace("Z","")})(new Date)}}const o={ERROR:1,WARN:2,INFO:3,DEBUG:4};return{debug(...e){t("DEBUG",0,e)},info(...e){t("INFO",0,e)},warn(...e){t("WARN",0,e)},error(...e){t("ERROR",0,e)}}}();

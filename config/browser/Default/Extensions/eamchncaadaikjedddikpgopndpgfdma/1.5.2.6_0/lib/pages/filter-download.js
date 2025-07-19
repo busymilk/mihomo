@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=new Nanobar({classname:"adg-progress-bar"});t.go(15),function n(){contentPage.sendMessage({type:"checkRequestFilterReady"},e=>{e.ready?(t.go(100),setTimeout(()=>{window&&contentPage.sendMessage({type:"openThankYouPage"})},1e3)):setTimeout(n,500)})}()});

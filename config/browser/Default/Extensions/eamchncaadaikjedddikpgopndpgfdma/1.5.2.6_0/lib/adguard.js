@@ -1,0 +1,1 @@
+var adguard=function(){function e(){return!1}return{lazyGet:function(e,t,n){t="_"+t;if(t in e)return e[t];n=n.apply(e);return e[t]=n},lazyGetClear:function(e,t){delete e["_"+t]},hitStats:{addRuleHit:e,addDomainView:e,cleanup:e},filteringLog:{addHttpRequestEvent:e,clearEventsByTabId:e,isOpen:e},safebrowsing:{checkSafebrowsingFilter:e},sync:{settingsProvider:!1}}}();

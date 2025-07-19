@@ -1,0 +1,1 @@
+!function(n){let u=Object.create(null);n.LocalScriptRulesService={setLocalScriptRules:function(e){u=Object.create(null);var t=e.rules;for(let l=0;l<t.length;l+=1){var{domains:r,script:c}=t[l];let e="<any>"!==r?r:"";e+=n.FilterRule.MASK_SCRIPT_RULE+c,u[e]=!0}},isLocal:function(e){return e in u}}}(adguard.rules);

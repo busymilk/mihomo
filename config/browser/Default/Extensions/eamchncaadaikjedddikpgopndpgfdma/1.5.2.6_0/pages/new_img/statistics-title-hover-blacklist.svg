@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/插件设置/黑名单/checked/light</title>
+    <g id="icon/插件设置/黑名单/checked/light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/插件设置/白名单/normal">
+            <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="1.33333335e-11" points="0 0 23.9999985 0 23.9999985 23.9999985 0 23.9999985"></polygon>
+            <path d="M18,3 C19.1045695,3 20,3.8954305 20,5 L20,17 C20,17.8109886 19.5173023,18.509237 18.8235343,18.823118 C18.936744,18.5723876 19,18.2935809 19,18 L19,18 L19,6 C19,4.8954305 18.1045695,4 17,4 L17,4 L7,4 C6.70614871,4 6.42709886,4.06337252 6.17577194,4.17719609 C6.49010301,3.48315407 7.18862816,3 8,3 L18,3 Z" id="形状结合" fill="#FFFFFF"></path>
+            <rect id="矩形" fill="#FFFFFF" x="4" y="5" width="14" height="15" rx="2"></rect>
+            <g id="编组" transform="translate(6.000000, 7.500000)">
+                <circle id="椭圆形" stroke="#0081FF" stroke-width="1.25" cx="5" cy="5" r="4.375"></circle>
+                <rect id="矩形" fill="#0081FF" transform="translate(4.812311, 5.142311) rotate(-45.000000) translate(-4.812311, -5.142311) " x="0.187310601" y="4.5173106" width="9.25" height="1.25" rx="0.625"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

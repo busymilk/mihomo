@@ -1,0 +1,25 @@
+! Title: UOS filter
+! Description: Supplementary rules updated by UOS.
+! Version: 0.0.0.1
+! TimeUpdated: 2021-08-17T17:48:00+00:00
+!
+!
+meijuxq.com^$third-party,gif
+meijuxq.com###HMcoupletDivleft
+meijuxq.com###HMcoupletDivright
+meijuxq.com##brde[id][style*="height"]
+meijuxq.com##div[id][classname][class$="_f"]
+||v.dailiqing.net^
+||v2.dailiqing.net^
+||*.dailiqing.net^
+||imgvipk.sqjrqygy.com^
+||p3.qpic.cn^
+||imgwetuku.qwpr3.com^
+||sdweitu.xztygy.com^
+||imgsvipw.xawds.com^
+||wangyiyun.newbuluo.com^
+||huaweiyun.huaousports.com^
+||img11.360buyimg.com^
+||*.360buyimg.com
+||imgtukup.pipixt.com^
+www.yzlfxy.com#@#.ads-post

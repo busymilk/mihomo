@@ -1,0 +1,100 @@
+[2:2:0719/162607.608635:WARNING:chrome_main_delegate.cc(744)] This is Chrome version 127.0.6533.100 (not a warning)
+[2:2:0719/162607.728451:ERROR:browser_main_loop.cc(280)] GLib-GObject: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+[2:2:0719/162607.728526:ERROR:browser_main_loop.cc(280)] GLib-GObject: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+[2:2:0719/162607.831133:INFO:dde_vm_compositing_client.cc(68)] InitCompositingEnable   ddeCompositingEnabled   0
+[2:2:0719/162607.842353:INFO:dde_mime_client.cc(140)] input_:.desktop
+[2:2:0719/162607.844846:ERROR:risky_urls_database.cc(55)] Init risky_urls_db_ open failed!
+[2:2:0719/162607.970232:WARNING:key_storage_linux.cc(168)] OSCrypt tried Libsecret but couldn't initialise.
+[2:2:0719/162608.028247:INFO:bookmark_model.cc(1202)] BookmarkModel::LoadImpl:/home/qqq/.config/browser/Default/virtual/Bookmarks
+[2:2:0719/162608.043246:WARNING:browser_management_service.cc(128)] EnterpriseLogoUrl fetch failed with error code -1 and MIME type 
+[2:2:0719/162608.049970:INFO:union_id_service.cc(189)] UnionIDService::Init
+[2:2:0719/162608.050108:INFO:union_id_service.cc(248)] UpdateFromUtcloudIfNeeded start.
+[72:72:0719/162608.184897:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[2:2:0719/162608.198527:INFO:avatar_toolbar_button_delegate_uos.cc(193)] AvatarToolbarButtonDelegate::UnionIDInit:
+[2:2:0719/162608.198585:INFO:avatar_toolbar_button_delegate_uos.cc(194)] user_info:is_no_user=1, user_name=, user_avatar_image=1, user_avatar_image_path=
+[2:2:0719/162608.198812:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:0
+[2:2:0719/162608.198859:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:0
+[2:2:0719/162608.198874:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:0
+[2:2:0719/162608.198881:INFO:avatar_toolbar_button_delegate_uos.cc(59)] AvatarToolbarButtonDelegate::InitializeStateManager
+[2:2:0719/162608.198906:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[2:2:0719/162608.198977:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[2:2:0719/162608.228384:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[2:2:0719/162608.228495:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[105:1:0719/162608.247979:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[105:1:0719/162608.248294:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[106:1:0719/162608.252771:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[106:1:0719/162608.253391:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[2:2:0719/162608.277169:WARNING:bluez_dbus_manager.cc(248)] Floss manager not present, cannot set Floss enable/disable.
+[2:2:0719/162608.277520:INFO:dde_utcloud_client.cc(699)] unionid:
+[2:2:0719/162608.277544:INFO:dde_utcloud_client.cc(699)] username:
+[2:2:0719/162608.277556:INFO:dde_utcloud_client.cc(699)] nickname:
+[2:2:0719/162608.277566:INFO:dde_utcloud_client.cc(699)] phone:
+[2:2:0719/162608.277578:INFO:dde_utcloud_client.cc(699)] openid:
+[2:2:0719/162608.277590:INFO:dde_utcloud_client.cc(699)] uid:
+[2:2:0719/162608.277600:INFO:dde_utcloud_client.cc(699)] region:
+[2:2:0719/162608.277610:INFO:dde_utcloud_client.cc(699)] profile_image:
+[2:2:0719/162608.277617:INFO:dde_utcloud_client.cc(699)] email:
+[2:2:0719/162608.277636:INFO:dde_utcloud_client.cc(699)] wechat_nickname:
+[2:2:0719/162608.277649:INFO:union_id_service.cc(372)] OnUnionIdInitStatus start. status:0
+[2:2:0719/162608.277685:INFO:avatar_toolbar_button_delegate_uos.cc(183)] AvatarToolbarButtonDelegate::OnLoginStatusChanged
+[2:2:0719/162608.277697:INFO:avatar_toolbar_button_delegate_uos.cc(184)] login_status:0, is_init:0
+[2:2:0719/162608.277718:INFO:avatar_toolbar_button_delegate_uos.cc(172)] AvatarToolbarButtonDelegate::OnUserInfoChanged
+[2:2:0719/162608.277731:INFO:avatar_toolbar_button_delegate_uos.cc(173)] user_info:is_no_user=1, user_name=, user_avatar_image=1, user_avatar_image_path=
+[2:2:0719/162608.278248:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[2:2:0719/162608.279085:INFO:avatar_toolbar_button_delegate_uos.cc(172)] AvatarToolbarButtonDelegate::OnUserInfoChanged
+[2:2:0719/162608.279110:INFO:avatar_toolbar_button_delegate_uos.cc(173)] user_info:is_no_user=0, user_name=, user_avatar_image=1, user_avatar_image_path=
+[2:49:0719/162608.279446:INFO:dde_mime_client.cc(140)] input_:.desktop
+[2:2:0719/162608.281488:INFO:avatar_toolbar_button_delegate_uos.cc(64)] AvatarToolbarButtonDelegate::IsStateManagerInitialized:1
+[2:2:0719/162608.304956:INFO:union_id_service.cc(773)] BookmarkModelChanged bookmark changed.
+[123:1:0719/162608.334593:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[123:1:0719/162608.352332:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[2:2:0719/162608.466422:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.UnknownMethod: Unknown / invalid method 'GetActive'
+[2:2:0719/162608.514446:WARNING:idle_linux.cc(105)] None of the known D-Bus ScreenSaver services could be used.
+[72:72:0719/162608.658412:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+[75:88:0719/162608.668455:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[72:72:0719/162608.678194:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+[72:72:0719/162608.694902:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+[75:88:0719/162608.883431:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[139:1:0719/162608.914410:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[139:1:0719/162608.914671:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[2:2:0719/162608.968907:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+[151:1:0719/162609.977715:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[151:1:0719/162609.978098:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[75:88:0719/162610.166847:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162611.126495:WARNING:spdy_session.cc(2984)] Received HEADERS for invalid stream 3
+[2:2:0719/162612.305740:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-1020360550%3A1752913571203966&access_type=offline&client_id=681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com&o2v=2&redirect_uri=http%3A%2F%2Flocalhost%3A42169%2Foauth2callback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&service=lso&state=8f2f4107e8aa9c8da1492c673d23ba119af0e1886e32c56a6991279e4d11ca3f&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPhq_mXNerDWB7j3JzzEBvobdJ1zxkbqGZoSyXDAstxb6iZ09djtaC3nJhvI-Eb2gaIBU4p_qdvJNlO4V-IYmPKdu2lsnwdiTzTqF2WuFCQGg6uyF7F1nD-pUyQAiI05h3R5E2ROiyFtbLVwyaDHVkQkYDLaSx78PUcpXGYPUTAzuVCy_m-JNPURAjZhr5dTQOxRs-TZWWFjRDWzosOwrGHT7hE0wnHeCWyZvQ5F_jO_gEqWZxslo__r4FOv5Eb6FOnbHsFJG0Ucj17V5rGrzL7hfgJt9jpyLo0f0Jl7HjmpBgj5myDx193lstuwe-usdFRP3OeSV8XKIAuwICBDZjl0UfUWi13407MNzPBUeT6WE3jJK2IZAwQYsk0SmpuBSagXZhIZeqp7t2FoQu-xo-bkGT8xWqh2Gn-J_2JdIgVxuV_jTCRMvgWwzZ6aVXe07ZcYel2xwDxCyArEbJenyRsrFAboyMIIUrU-HC2GaBOrjJeyqM%26flowName%3DGeneralOAuthFlow%26as%3DS-1020360550%253A1752913571203966%26client_id%3D681255809395-oo8ft2oprdrnp9e3aqf6av3hmdib135j.apps.googleusercontent.com%23&app_domain=http%3A%2F%2Flocalhost%3A42169&rart=ANgoxccVxHR05Bi3sp3MGUYiPD-LjHlrhag5VC20MUGCdQv1Na8g_An0eFPsDrzD6KreGAKzj9wUotnU8zc4EKY6hJGJLPqTJknx6FCEqtS2FUmi5mDcodQ (0)
+[2:2:0719/162612.333353:INFO:CONSOLE(438)] "%c%s color: red; background: yellow; font-size: 24px; 警告！", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.zh_CN.zetPJSzXUjI.es5.O/am=MQwAzJTH_k8BIP7_nzIL6ixAAkIGAAAAAAAAAABsAQAAWMcAEA/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFW0ICpbt6LWJ0_9CeCyH95M5CkSg/m=_b,_tp (438)
+[2:2:0719/162612.336514:INFO:CONSOLE(438)] "%c%s font-size: 18px; 使用此控制台可能会导致攻击程序利用 Self-XSS 攻击冒充您并窃取您的信息。
+请勿输入或粘贴您不明白的代码。", source: https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.zh_CN.zetPJSzXUjI.es5.O/am=MQwAzJTH_k8BIP7_nzIL6ixAAkIGAAAAAAAAAABsAQAAWMcAEA/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlFW0ICpbt6LWJ0_9CeCyH95M5CkSg/m=_b,_tp (438)
+[75:88:0719/162612.518818:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162612.896519:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[161:1:0719/162614.179335:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[161:1:0719/162614.181392:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[75:88:0719/162614.375279:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[2:2:0719/162614.414754:INFO:CONSOLE(2)] "This document requires 'TrustedScript' assignment.", source:  (2)
+[2:2:0719/162614.471541:INFO:CONSOLE(2)] "This document requires 'TrustedScript' assignment.", source:  (2)
+[2:2:0719/162614.650006:INFO:CONSOLE(2)] "This document requires 'TrustedScript' assignment.", source:  (2)
+[2:2:0719/162614.823401:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[2:2:0719/162614.823536:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[2:2:0719/162614.823716:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[2:2:0719/162614.823772:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[75:88:0719/162615.033555:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[2:2:0719/162626.382948:INFO:CONSOLE(2)] "This document requires 'TrustedScript' assignment.", source:  (2)
+[2:2:0719/162626.585864:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[2:2:0719/162626.586139:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[196:1:0719/162709.424987:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[196:1:0719/162709.425452:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[256:1:0719/162719.817165:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[256:1:0719/162719.818134:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[290:1:0719/162728.095740:WARNING:runtime_features.cc(685)] AttributionReporting cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement in addition.
+[290:1:0719/162728.096304:WARNING:runtime_features.cc(699)] AttributionReportingCrossAppWeb cannot be enabled in this configuration. Use --enable-features=ConversionMeasurement,AttributionReportingCrossAppWeb in addition.
+[75:88:0719/162729.191367:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162729.295392:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162732.464820:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162746.362845:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162747.117245:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162750.443505:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162750.447765:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162750.455753:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162750.458588:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100
+[75:88:0719/162757.371779:ERROR:ssl_client_socket_impl.cc(883)] handshake failed; returned -1, SSL error code 1, net_error -100

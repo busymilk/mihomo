@@ -1,0 +1,1 @@
+!function(e){"use strict";window.i18n=e.i18n,window.popupPage={sendMessage:e.runtimeImpl.sendMessage,onMessage:e.runtimeImpl.onMessage,closePopup(){window.close()},resizePopup(){}}}(adguardContent);

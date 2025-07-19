@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>图标/通用/疑问</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0.850000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="广告拦截插件-设置-白名单/light" transform="translate(-560.000000, -224.000000)">
+            <g id="图标/通用/疑问" transform="translate(559.000000, 223.000000)" filter="url(#filter-1)">
+                <g>
+                    <circle id="椭圆形" stroke="#262626" cx="8" cy="8" r="6.5"></circle>
+                    <g id="编组-2" transform="translate(5.843089, 4.417062)">
+                        <ellipse id="椭圆形" fill="#262626" cx="2.19471577" cy="7.41263455" rx="1" ry="1"></ellipse>
+                        <path d="M2.15691099,5.90130846 L2.15691099,4.28090528 C3.59485164,3.64202976 4.31382197,2.92854554 4.31382197,2.14045264 C4.31382197,0.95831329 3.34814003,0 2.15691099,0 C0.965681942,0 0,0.95831329 0,2.14045264" id="形状结合" stroke="#262626" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

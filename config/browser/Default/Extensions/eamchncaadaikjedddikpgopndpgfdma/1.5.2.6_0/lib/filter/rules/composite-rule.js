@@ -1,0 +1,1 @@
+adguard.rules.CompositeRule=function(e,u){this.ruleText=e,this.rules=u};

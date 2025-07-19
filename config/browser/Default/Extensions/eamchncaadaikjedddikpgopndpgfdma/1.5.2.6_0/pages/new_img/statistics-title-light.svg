@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/插件设置/统计/normal/light</title>
+    <g id="icon/插件设置/统计/normal/light" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/插件设置/统计/normal">
+            <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="1.33333335e-11" points="0 0 23.9999985 0 23.9999985 23.9999985 0 23.9999985"></polygon>
+            <rect id="矩形" fill="#626E88" transform="translate(12.000000, 19.000000) rotate(-90.000000) translate(-12.000000, -19.000000) " x="11" y="11" width="2" height="16" rx="0.5"></rect>
+            <rect id="矩形" fill="#626E88" x="4" y="11" width="4" height="6" rx="1"></rect>
+            <rect id="矩形" fill="#626E88" x="10" y="7" width="4" height="10" rx="1"></rect>
+            <rect id="矩形备份-5" fill="#626E88" x="16" y="4" width="4" height="13" rx="1"></rect>
+        </g>
+    </g>
+</svg>

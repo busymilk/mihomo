@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="40px" viewBox="0 0 36 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/拦截/禁用</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.697593422%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF5032" offset="0%"></stop>
+            <stop stop-color="#FF1C0A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15.5055234,31.7370536 C6.83517447,27.0684899 2.5,22.5242767 2.5,18.1044141 L2.5,5.05828282 C2.50009927,4.83399799 2.67806434,4.65017406 2.90223156,4.64291176 C5.64105479,4.55418263 7.99288651,4.11551543 9.95772673,3.32691015 C11.8156486,2.58096984 13.5955224,1.63366817 15.2973482,0.485005155 L15.2973432,0.484997735 C15.7187286,0.20057977 16.27058,0.200427432 16.6921223,0.48461271 C18.3962381,1.63345241 20.1784197,2.58088489 22.038667,3.32691015 C24.0034644,4.11549826 26.3541434,4.55416352 29.0907038,4.64290596 C29.3148817,4.65009011 29.4928843,4.83385996 29.4930045,5.05815294 L29.5,18.1079991 L29.5,18.1079991 C29.4976401,22.5255104 25.1612744,27.0685234 16.4909029,31.737038 L16.4909128,31.7370563 C16.1833265,31.9026745 15.8131088,31.9026735 15.5055234,31.7370536 Z" id="path-2"></path>
+        <filter x="-25.9%" y="-14.8%" width="151.9%" height="142.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-18.5%" y="-8.5%" width="137.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.588873401   0 0 0 0 0.377054354  0 0 0 0.668378497 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="18.6600208%" y1="43.0626013%" x2="100%" y2="43.0626013%" id="linearGradient-6">
+            <stop stop-color="#FF8626" stop-opacity="0.592959531" offset="0%"></stop>
+            <stop stop-color="#EE1200" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-67.1%" y="-56.3%" width="234.1%" height="210.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="3.02097902" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="拦截下拉弹窗-禁用/light" transform="translate(-122.000000, -71.000000)">
+            <g id="icon/拦截/禁用" transform="translate(124.000000, 73.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="蒙版">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-2"></use>
+                </g>
+                <rect id="矩形" fill-opacity="0.5" fill="url(#linearGradient-6)" mask="url(#mask-3)" x="-0.111888112" y="-4.02797203" width="16.1118881" height="39.2727273"></rect>
+                <path d="M14.996122,23.6137846 C11.1605676,21.4110055 9.24279037,19.2635618 9.24279037,17.1714532 L9.24279037,10.3989007 C10.7000685,10.3700199 11.9443505,10.1473969 12.9756365,9.73103168 C14.0333966,9.3038362 15.0406152,8.74547366 15.9972924,8.05594406 C16.955173,8.74547366 17.963595,9.3038362 19.0225584,9.73103168 C20.0538444,10.1473969 21.2975248,10.3700199 22.7535995,10.3989007 L22.7572096,17.1732583 C22.7560992,19.2642549 20.8377265,21.4110991 17.0020915,23.6137909 L17.0021029,23.6138109 C16.3810051,23.970489 15.6172105,23.970479 14.996122,23.6137846 Z" id="蒙版" fill-opacity="0.551604158" fill="#FF8775" fill-rule="nonzero" style="mix-blend-mode: lighten;" filter="url(#filter-7)" mask="url(#mask-3)"></path>
+                <g id="感叹号" transform="translate(15.000000, 9.000000)" fill="#FFFFFF">
+                    <rect id="矩形" x="0" y="0" width="2" height="10" rx="1"></rect>
+                    <circle id="椭圆形" cx="1" cy="13" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
