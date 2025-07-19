@@ -85,6 +85,46 @@ iptables:
 Check [wiki](https://wiki.metacubex.one/api/#debug) to get an instruction on using debug
 API.
 
+## New API: Content Check
+
+A new API endpoint `/content_check` has been added to check the content of a URL through all proxies.
+
+**Endpoint:** `GET /content_check`
+
+**Query Parameters:**
+
+*   `url` (required): The URL to check.
+*   `timeout` (optional): Timeout for each request. Defaults to `5s`.
+
+**Example:**
+
+```
+GET /content_check?url=http://www.google.com&timeout=3s
+```
+
+**Response:**
+
+A JSON array of results, one for each proxy.
+
+```json
+{
+  "results": [
+    {
+      "proxy": "proxy1",
+      "url": "http://www.google.com",
+      "content": "...",
+      "error": ""
+    },
+    {
+      "proxy": "proxy2",
+      "url": "http://www.google.com",
+      "content": "",
+      "error": "request timed out"
+    }
+  ]
+}
+```
+
 ## Credits
 
 - [Dreamacro/clash](https://github.com/Dreamacro/clash)
