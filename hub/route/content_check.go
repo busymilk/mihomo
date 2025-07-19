@@ -8,6 +8,7 @@ import (
 	"net/http"
 	urlpkg "net/url"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 
@@ -71,7 +72,7 @@ func contentCheck(w http.ResponseWriter, r *http.Request) {
 			if err != nil {
 				result.Error = err.Error()
 			} else {
-				result.Content = content
+				result.Content = strings.TrimSpace(content)
 			}
 
 			mu.Lock()

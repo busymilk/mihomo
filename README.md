@@ -85,45 +85,56 @@ iptables:
 Check [wiki](https://wiki.metacubex.one/api/#debug) to get an instruction on using debug
 API.
 
-## New API: Content Check
+## API: Content Check
 
-A new API endpoint `/content_check` has been added to check the content of a URL through all proxies.
+A new API endpoint `/content_check` has been added to check the content of a URL through all available proxies.
 
 **Endpoint:** `GET /content_check`
 
 **Query Parameters:**
 
-*   `url` (required): The URL to check.
-*   `timeout` (optional): Timeout for each request. Defaults to `5s`.
+*   `url` (required): The URL to check. e.g., `https://checkip.amazonaws.com/`
+*   `timeout` (optional): Timeout for each request in duration format. Defaults to `5s`.
 
-**Example:**
+**Example Usage:**
 
+```bash
+curl "http://127.0.0.1:9093/content_check?url=https%3A%2F%2Fcheckip.amazonaws.com%2F&timeout=3s"
 ```
-GET /content_check?url=http://www.google.com&timeout=3s
-```
 
-**Response:**
+**Response Body:**
 
-A JSON array of results, one for each proxy.
+The API returns a JSON object containing a list of results, one for each proxy.
 
 ```json
 {
   "results": [
     {
-      "proxy": "proxy1",
-      "url": "http://www.google.com",
-      "content": "...",
+      "proxy": "ProxyName1",
+      "url": "https://checkip.amazonaws.com/",
+      "content": "123.45.67.89",
       "error": ""
     },
     {
-      "proxy": "proxy2",
-      "url": "http://www.google.com",
+      "proxy": "ProxyName2",
+      "url": "https://checkip.amazonaws.com/",
       "content": "",
       "error": "request timed out"
     }
   ]
 }
 ```
+
+**Field Description:**
+
+*   `proxy`: The name of the proxy being tested.
+*   `url`: The target URL that was requested.
+*   `content`: 
+    *   **On success:** The response body from the URL as a string. Any leading/trailing whitespace (including newlines) is removed. For `https://checkip.amazonaws.com/`, this will be the clean IP address.
+    *   **On failure:** An empty string `""`.
+*   `error`:
+    *   **On success:** An empty string `""`.
+    *   **On failure:** A string containing the error message, e.g., `"request timed out"`, `"connection refused"`, etc.
 
 ## Credits
 
